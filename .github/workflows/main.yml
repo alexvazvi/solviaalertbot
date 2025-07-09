@@ -18,6 +18,9 @@ jobs:
       - name: List files in repo
         run: ls -R
 
+      - name: Print git remote
+        run: git remote -v
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
