@@ -28,7 +28,7 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
-        run: python solviaalertbot/solvia_bot.py
+        run: python solvia_bot.py
 
       - name: Commit pisos_guardados.json
         run: |
