@@ -34,8 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          touch pisos_guardados.json
-          git add pisos_guardados.json
+          git add solviaalertbot/pisos_guardados.json
           git commit -m "Update pisos_guardados.json" || echo "No changes"
           git push
         
